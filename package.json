@@ -1,0 +1,29 @@
+{
+  "name": "@sefasungur/padder",
+  "version": "1.0.2",
+  "description": "Famous leftpad library for open source reasons.",
+  "main": "index.js",
+  "buildEntry": "./build/index.js",
+  "private": false,
+  "keywords": ["nodejs","javascript","padder","text-processin","padding-left"],
+  "bugs": "url:https://github.com/sefasungur/padder/issues",
+  "repository": {
+    "type": "git",
+    "url": ":https://github.com/sefasungur/padder"
+  },
+  "homepage": "https://www.sefa.dev",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":  "npx babel src -d ./build --copy-files",
+    "dev":  "npx babel src -d ./build --copy-files --watch"
+  },
+  "author": "Sefa Sungur",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/node": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/register": "^7.17.7"
+  }
+}
